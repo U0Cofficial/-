@@ -1,0 +1,6 @@
+ balance search tree는 정리 안하고
+바로 알고리즘으로 넘어갔음
+heap sort, shell sort는 알고리즘에 없어서
+읽고만 넘어갔음
+
+/2023-08-30 sv
