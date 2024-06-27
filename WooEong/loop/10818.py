@@ -1,7 +1,6 @@
 import sys
 input = sys.stdin.readline
 
-array = []
 N = int(input().strip())
 
 inputarray = list(map(int,input().strip().split()))
