@@ -17,16 +17,33 @@
 import sys
 input = sys.stdin.readline
 
-def sum_numbers(n,numbers):
+def sum_numbers(numbers):
     result = 0
     for char in (numbers.strip()):
         result += int(char)
-        return result
-    
+        
+    return result
+
 n = int(input())
 numbers = input()
 
-print(sum_numbers(n,numbers))
+print(sum_numbers(numbers))
 
 
 #for char in (numbers): 각 문자를 숫자로 변환하여 합을 구함
+
+
+# import sys
+# input = sys.stdin.readline
+
+# n = input()
+# number_string = input()
+
+
+
+# cnt = 0
+# for i in number_string:
+#     if i == '\n': break
+#     cnt += int(i)
+
+# print(cnt)
